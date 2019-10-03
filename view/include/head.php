@@ -1,7 +1,7 @@
 <?php
 require_once $global['systemRootPath'] . 'plugin/YouPHPTubePlugin.php';
 $head = YouPHPTubePlugin::getHeadCode();
-$custom = "The Best YouTube Clone Ever - YouPHPTube";
+$custom = "Videos tutorials for eLearn.";
 $extraPluginFile = $global['systemRootPath'] . 'plugin/Customize/Objects/ExtraConfig.php';
 
 $custom = "";

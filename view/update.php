@@ -44,7 +44,7 @@ if (!empty($_POST['updateFile'])) {
         <?php
         include $global['systemRootPath'] . 'view/include/navbar.php';
         ?><div class="container-fluid">
-            <div class="alert alert-success"><?php printf(__("You are running YouPHPTube version %s!"), $config->getVersion()); ?></div>
+            <div class="alert alert-success"><?php printf(__("You are running script version %s!"), $config->getVersion()); ?></div>
             <?php
             if (empty($_POST['updateFile'])) {
                 $updateFiles = getUpdatesFilesArray();

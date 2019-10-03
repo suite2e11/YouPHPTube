@@ -11,13 +11,13 @@
         ?>
         <ul class="list-inline">
             <li>
-                Powered by <a href="http://www.youphptube.com" class="external btn btn-outline btn-primary btn-xs" target="_blank">YouPHPTube LLC v<?php echo $config->getVersion(); ?></a>
+                Managed by <a href="https://ubodoo.com" class="external btn btn-outline btn-primary btn-xs" target="_blank">UBODOO</a>
             </li>
             <li>
-                <a href="https://www.facebook.com/mediasharingtube/" class="external btn btn-outline btn-primary btn-xs" target="_blank"><span class="sr-only">Facebook</span><i class="fab fa-facebook-square"></i></a>
+                <a href="https://#/" class="external btn btn-outline btn-primary btn-xs" target="_blank"><span class="sr-only">Facebook</span><i class="fab fa-facebook-square"></i></a>
             </li>
             <li>
-                <a href="https://plus.google.com/u/0/113820501552689289262" class="external btn btn-outline btn-primary btn-xs" target="_blank"><span class="sr-only">Google Plus</span><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://#/" class="external btn btn-outline btn-primary btn-xs" target="_blank"><span class="sr-only">Google Plus</span><i class="fab fa-google-plus-g"></i></a>
             </li>
         </ul>
         <?php

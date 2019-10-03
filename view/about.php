@@ -29,18 +29,18 @@ if(!isset($global['systemRootPath'])){
                 }
                 if(empty($custom)){
                 ?>
-                <h1><?php echo __("I would humbly like to thank God for giving me the necessary knowledge, motivation, resources and idea to be able to execute this project. Without God's permission this would never be possible."); ?></h1>
+                <h1><?php echo __("This demo site is for signed-up teachers/tutors to test publishing and sharing video tutorials for eLearn. No other videos are allowed."); ?></h1>
                 <blockquote class="blockquote">
-                    <h1><?php echo __("For of Him, and through Him, and to Him, are all things: to whom be glory for ever. Amen."); ?></h1>
-                    <footer class="blockquote-footer">Apostle Paul in <cite title="Source Title">Romans 11:36</cite></footer>
+                    <h1><?php echo __("We help individuals and businesses to build and host their own video server, so that all video productions remain their private property, and they can share with anyone in anywhere without unwanted distracting advertisements."); ?></h1>
+                    <footer class="blockquote-footer">The Ubodoo.Com <cite title="Source Title">TEAM</cite></footer>
                 </blockquote>
                 <div class="btn-group btn-group-justified">
-                    <a href="https://www.youphptube.com/" class="btn btn-success">Main Site</a>
-                    <a href="https://demo.youphptube.com/" class="btn btn-danger">Demo Site</a>
-                    <a href="https://tutorials.youphptube.com/" class="btn btn-primary">Tutorials Site</a>
-                    <a href="https://github.com/DanielnetoDotCom/YouPHPTube/issues" class="btn btn-warning">Issues and requests Site</a>
+                    <a href="https://ubodoo.com/" class="btn btn-success" target="_blank" rel="noopener noreferrer">Main Site</a>
+                    <a href="https://elearn.ubodoo.com/" class="btn btn-danger" target="_blank" rel="noopener noreferrer">eLearn Demo</a>
+                    <a href="https://bbb.ubodoo.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">WebClass Demo</a>
+                    <a href="https://erp.ubodoo.com" class="btn btn-warning" target="_blank" rel="noopener noreferrer">ERP Demo</a>
                 </div>
-                <span class="label label-success"><?php printf(__("You are running YouPHPTube version %s!"), $config->getVersion()); ?></span>
+                <span class="label label-success"><?php printf(__("You are running script version %s!"), $config->getVersion()); ?></span>
 
                 <span class="label label-success">
                     <?php printf(__("You can upload max of %s!"), get_max_file_size()); ?>

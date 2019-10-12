@@ -582,7 +582,7 @@ if (User::isAdmin()) {
                         captcha: $('#captchaText').val(),
                         first_name: "Your Site test",
                         email: "<?php echo $config->getContactEmail(); ?>",
-                        website: "www.youphptube.com",
+                        website: "www.ubodoo.com",
                         comment: "Teste of comment"
                     },
                     type: 'post',

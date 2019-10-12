@@ -29,16 +29,16 @@ if(!isset($global['systemRootPath'])){
                 }
                 if(empty($custom)){
                 ?>
-                <h1><?php echo __("This demo site is for signed-up teachers/tutors to test publishing and sharing video tutorials for eLearn. No other videos are allowed."); ?></h1>
+                <h1><?php echo __("This demo site is for verified teachers/tutors to test publishing and sharing videos/audios for eLearn. Non eLearn files are prohibited."); ?></h1>
                 <blockquote class="blockquote">
-                    <h1><?php echo __("We help individuals and businesses to build and host their own video server, so that all video productions remain their private property, and they can share with anyone in anywhere without unwanted distracting advertisements."); ?></h1>
+                    <h1><?php echo __("We help individuals and/or businesses to build and host their own video server, so that all intellectual productions remain their private property, and they can share with anyone in anywhere (including Mainland China and Arabic world) without unwanted distracting advertisements."); ?></h1>
                     <footer class="blockquote-footer">The Ubodoo.Com <cite title="Source Title">TEAM</cite></footer>
                 </blockquote>
                 <div class="btn-group btn-group-justified">
                     <a href="https://ubodoo.com/" class="btn btn-success" target="_blank" rel="noopener noreferrer">Main Site</a>
                     <a href="https://elearn.ubodoo.com/" class="btn btn-danger" target="_blank" rel="noopener noreferrer">eLearn Demo</a>
                     <a href="https://bbb.ubodoo.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">WebClass Demo</a>
-                    <a href="https://erp.ubodoo.com" class="btn btn-warning" target="_blank" rel="noopener noreferrer">ERP Demo</a>
+                    <a href="https://#" class="btn btn-warning" target="_blank" rel="noopener noreferrer">ERP Demo</a>
                 </div>
                 <span class="label label-success"><?php printf(__("You are running script version %s!"), $config->getVersion()); ?></span>
 
